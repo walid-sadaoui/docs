@@ -5,6 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://walid-sadaoui.github.io',
 	base: '/docs',
+	output: 'static',
 	integrations: [
 		starlight({
 			title: 'My Docs',
